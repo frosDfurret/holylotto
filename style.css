@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+body {
+  text-align: center;
+  padding: 32px;
+}
+
+#logo {
+  font-family: "Seaweed Script";
+  font-size: 50px;
+  line-height: 10px;
+  color: gold;
+}
+
+h6 {
+  line-height: 10px;
+}
+
+#response {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #aaa;
+}
+
+#dove {
+  position: fixed;
+  bottom: 10px;
+  left: 0px;
+}
+
+#cross {
+  position: fixed;
+  left: 32px;
+  top: 32px;
+}
+
+#jesus {
+  position: fixed;
+  bottom: 60px;
+  right: 32px;
+}
+
+#jesus2 {
+  position: fixed;
+  bottom: 150px;
+  left: 100px;
+}

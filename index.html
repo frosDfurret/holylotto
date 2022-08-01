@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+                .---.
+           '-.  |   |  .-'         
+             ___|   |___          
+        -=  [           ]  =-    
+            `---.   .---'         
+         __||__ |   | __||__      
+         '-..-' |   | '-..-'   
+           ||   |   |   ||     
+           ||_.-|   |-,_||     
+         .-"`   `"`'`   `"-.   
+jgs    .'                   '.
+-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="title" content="holylotto!">
+  <meta name="description" content="Turn bible verses into lotto numbers. Let Jesus lead you to the jackpot, and maybe share some of it with him when you win. :)">
+  <meta name="keywords" content="lotto,generator,random,jesus,bible,god,holy">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="daguil">
+  <title>holylotto!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="numgen.js" defer></script>
+  <script src="sound.js"></script>
+  <script src="template.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+
+<body>
+  <h1 id="logo">holylotto!</h1>
+  bible verses to lotto numbers
+  <br>
+  <br>
+  <button onclick="music.play()">play music</button>
+  <button onclick="alert('you cannot stop God from entering your ears into your soul')">stop music</button>
+  <br>
+  <br>
+  <select id="templates">
+    <option value="default">templates</option>
+    <option value="powerball">powerball</option>
+  </select>
+  <br>
+  <br>
+  numbers to generate
+  <input id="numamt" type="number" placeholder="6">
+  <br>
+  highest number
+  <input id="hinum" type="number" placeholder="5">
+  <br>
+  extra number?
+  <input id="extra" type="checkbox">
+  <br>
+  highest extra num
+  <input id="hiextra" type="number" placeholder="5">
+  <br>
+  book chapter:verse
+  <input id="verse" type="text" placeholder="John 3:16">
+  <br>
+  <br>
+  <button onclick="getResponse(); peace.play()">get my holy numbers!</button>
+  <br>
+  <br>
+  <div id="response"></div>
+  <div id="versedisplay"></div>
+  <h6>
+    copyright 1998 daguil
+    <br>
+    go forth to love and serve the lord!!!!
+  </h6>
+  <img src="./poweredbyjesus.gif">
+  <img src="./jesusani.gif">
+  <marquee id="dove" direction="right"><img src="./maildove.gif"></marquee>
+  <img id="cross" src="./cross.gif">
+  <img id="jesus" src="./jesus.gif">
+</body>
+
+</html>
